@@ -722,7 +722,7 @@ button {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 
@@ -738,6 +738,11 @@ button {
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -768,6 +773,11 @@ button {
   min-height: 120px;
   resize: none;
   outline: none;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
