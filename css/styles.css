@@ -837,6 +837,7 @@ button {
 .feedback__toggler-icon {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #f4f4fd;
 }
 .feedback__checkbox-input:checked
   + .feedback__toggler
