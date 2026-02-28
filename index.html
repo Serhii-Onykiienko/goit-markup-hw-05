@@ -475,7 +475,9 @@
         </div>
       </section>
     </main>
+
     <!-- Footer -->
+
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
@@ -529,8 +531,139 @@
               </li>
             </ul>
           </div>
+
+          <div class="subscribe">
+            <p class="subscribe__title">Subscribe</p>
+            <form class="subscribe__form">
+              <label class="subscribe__label">
+                <input
+                  class="subscribe__input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+              <button class="subscribe__button" type="submit">
+                Subscribe
+                <svg class="icon-letter" width="24" height="24">
+                  <use href="./images/icons.svg#icon-letter"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
+    <!-- Modal Form -->
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button
+          class="modal__button-close"
+          type="button"
+          aria-label="close modal button"
+        >
+          <svg class="modal__icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <div class="modal__form-wrapper">
+          <p class="modal__form-text">
+            Leave your contacts and we will call you back
+          </p>
+
+          <form
+            class="feedback-form"
+            name="feedback"
+            autocomplete="on"
+            novalidate
+          >
+            <div class="feedback__field">
+              <label class="feedback__label" for="name">Name</label>
+
+              <div class="feedback__input-wrapper">
+                <input
+                  class="feedback__input"
+                  name="name"
+                  id="name"
+                  type="text"
+                  placeholder=""
+                />
+                <svg class="feedback__form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="feedback__field">
+              <label class="feedback__label" for="phone">Phone</label>
+
+              <div class="feedback__input-wrapper">
+                <input
+                  class="feedback__input"
+                  name="phone"
+                  id="phone"
+                  type="tel"
+                  placeholder=""
+                />
+                <svg class="feedback__form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="feedback__field">
+              <label class="feedback__label" for="email">Email</label>
+
+              <div class="feedback__input-wrapper">
+                <input
+                  class="feedback__input"
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder=""
+                />
+                <svg class="feedback__form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="feedback__input-wrapper">
+              <label class="feedback__label" for="comment">Comment</label>
+              <div class="feedback__comment">
+                <textarea
+                  class="feedback__textarea"
+                  name="comment"
+                  id="comment"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </div>
+
+            <label class="feedback__checkbox-label">
+              <input
+                class="feedback__checkbox-input visually-hidden"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                value="true"
+                checked
+              />
+              <span class="feedback__toggler">
+                <svg class="feedback__toggler-icon" width="10" height="8">
+                  <use href="/images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="feedback__link" href="#">Privacy Policy</a>
+            </label>
+
+            <button class="feedback__button hero__button">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
