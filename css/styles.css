@@ -571,6 +571,13 @@ button {
 }
 
 .subscribe__input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+
   width: 264px;
   height: 40px;
   color: #fff;
@@ -720,6 +727,7 @@ button {
 }
 .feedback__input-wrapper {
   position: relative;
+  margin-top: 4px;
 }
 .feedback__input {
   width: 100%;
